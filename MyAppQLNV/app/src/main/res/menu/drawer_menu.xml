@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_chucvu"
+            android:icon="@drawable/ic_baseline_merge_type_24"
+            android:title="Quản lý Chức vụ"/>
+        <item android:id="@+id/nav_giamdoc"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Giám đốc"/>
+        <item android:id="@+id/nav_truongphong"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Trưởng phòng"/>
+        <item android:id="@+id/nav_nhanvien"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Nhân viên"/>
+    </group>
+    <item android:title="Thiết lập">
+        <menu>
+
+            <item android:id="@+id/nav_caidat"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Cài đặt"/>
+            <item android:id="@+id/nav_thoat"
+                android:icon="@drawable/ic_baseline_close_24"
+                android:title="Thoát"/>
+        </menu>
+    </item>
+</menu>

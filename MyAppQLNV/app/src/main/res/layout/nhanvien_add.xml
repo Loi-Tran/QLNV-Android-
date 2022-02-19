@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvNVTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="THÊM NHÂN VIÊN"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:background="#009688"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtTenNV"
+        android:hint="Tên nhân viên"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtLuongNV"
+        android:hint="Lương"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtHinhNV"
+        android:hint="Hình"
+        android:layout_marginTop="8dp"/>
+    <Spinner
+        android:id="@+id/spnLoaiNV"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnThemNV"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:text="Thêm mới"/>
+</LinearLayout>

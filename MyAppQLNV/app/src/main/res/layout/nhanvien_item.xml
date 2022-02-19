@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="6dp"
+    android:id="@+id/cardview_NhanVien">
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_daidien"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/image4" />
+
+        <TextView
+            android:id="@+id/tv_MaNV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="100dp"
+            android:text="Mã nhân viên"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_HoTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_MaNV"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="100dp"
+            android:text="Họ tên"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/tv_Luong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_HoTen"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="100dp"
+            android:text="Lương"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/tv_ChucVu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_Luong"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="100dp"
+            android:text="Chức vụ"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18dp" />
+        <ImageView
+            android:id="@+id/ivEditNV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_baseline_edit_24" />
+        <ImageView
+            android:id="@+id/ivDeleteNV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_delete_24"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ivEditNV"
+            android:layout_marginTop="8dp"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
